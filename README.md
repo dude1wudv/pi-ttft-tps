@@ -19,10 +19,18 @@ TTFT 1.2s | TPS 42.3 | Cache 87%
 
 ## 安装
 
+一行装好：
+
+```bash
+pi install git:github.com/dude1wudv/pi-ttft-tps
+```
+
+下面几种方式任选。
+
 ### 方式 1：本地目录（推荐）
 
 ```bash
-git clone https://github.com/<你的用户名>/pi-ttft-tps.git
+git clone https://github.com/dude1wudv/pi-ttft-tps.git
 pi install ./pi-ttft-tps
 ```
 
@@ -31,9 +39,9 @@ pi 会把本地安装写成相对于 settings 文件的形式，例如 `"github-
 ### 方式 2：git 源
 
 ```bash
-pi install git:github.com/<你的用户名>/pi-ttft-tps
+pi install git:github.com/dude1wudv/pi-ttft-tps
 # 也可以锁定 tag/commit
-pi install git:github.com/<你的用户名>/pi-ttft-tps@v0.1.0
+pi install git:github.com/dude1wudv/pi-ttft-tps@v0.1.0
 ```
 
 ### 方式 3：手动放单文件
