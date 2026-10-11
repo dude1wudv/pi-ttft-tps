@@ -1,0 +1,19 @@
+{
+  "powerline": {
+    "customItems": [
+      {
+        "id": "response_metrics",
+        "statusKey": "response-metrics",
+        "position": "right",
+        "color": "muted",
+        "hideWhenMissing": false
+      }
+    ],
+    "disabledSegments": [
+      "cache_read"
+    ],
+    "cache_read": {
+      "format": "percent"
+    }
+  }
+}

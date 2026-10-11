@@ -1,0 +1,39 @@
+{
+  "name": "pi-ttft-tps",
+  "version": "0.1.0",
+  "description": "Pi footer metrics: time to first token, tokens per second, and prompt cache hit rate, measured live while streaming.",
+  "type": "module",
+  "license": "MIT",
+  "author": "dude1wudv",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "ttft",
+    "tps",
+    "tokens-per-second",
+    "latency",
+    "cache-hit-rate",
+    "footer",
+    "metrics"
+  ],
+  "files": [
+    "extensions",
+    "examples",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.ts\"",
+    "try": "pi -e ./extensions/response-metrics.ts"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/response-metrics.ts"
+    ]
+  }
+}
